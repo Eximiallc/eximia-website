@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sips -Z 400 \"/Users/usman/Documents/Claude/Projects/website/Color logo - no background.png\" --out \"/Users/usman/Documents/Claude/Projects/website/logo.png\")",
+      "Bash(sips -g pixelWidth -g pixelHeight \"/Users/usman/Documents/Claude/Projects/website/logo.png\")",
+      "Bash(python3 -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(pip3 install *)"
+    ]
+  }
+}
